@@ -12,7 +12,7 @@ netifaces 0.10.8
    :alt: Build Status (Linux/Mac)
 
 .. |WinBuildStatus| image:: https://ci.appveyor.com/api/projects/status/3ctn1bl0aigpfjoo/branch/master?svg=true
-   :target: https://ci.appveyor.com/project/al45tair/netifaces/branch/master
+   :target: https://ci.appveyor.com/project/funhatch/netifaces/branch/master
    :alt: Build Status (Windows)
 
 .. warning::
