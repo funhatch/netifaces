@@ -1,3 +1,7 @@
+2022-01-13 Version 0.12.0
+    * Added support for Python 3.9
+	* Removed support for Python < 3.6
+
 2021-05-31	Version 0.11.0
 
 	* Added notice about needing a new maintainer.

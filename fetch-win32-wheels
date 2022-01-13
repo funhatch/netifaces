@@ -14,7 +14,7 @@ else
 fi
 
 niversion=$1
-artifact_url="https://ci.appveyor.com/api/projects/al45tair/netifaces/artifacts"
+artifact_url="https://ci.appveyor.com/api/projects/funhatch/netifaces/artifacts"
 win32_versions="36 37 38 39"
 amd64_versions="36 37 38 39"
 
