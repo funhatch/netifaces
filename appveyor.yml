@@ -1,6 +1,5 @@
 environment:
   matrix:
-    - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
     - PYTHON: "C:\\Python39"
     - PYTHON: "C:\\Python39-x64"
     - PYTHON: "C:\\Python310"
@@ -11,9 +10,7 @@ environment:
 install:
   - "%PYTHON%\\python.exe -m pip install wheel ."
 
-build_script:
-  - cmd: |
-      %PYTHON%\\python.exe setup.py build_ext --inplace
+build: off
 
 test_script:
   - "%PYTHON%\\python.exe test.py"
