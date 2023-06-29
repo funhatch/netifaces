@@ -15,8 +15,8 @@ fi
 
 niversion=$1
 artifact_url="https://ci.appveyor.com/api/projects/funhatch/netifaces/artifacts"
-win32_versions="36 37 38 39"
-amd64_versions="36 37 38 39"
+win32_versions="39 310 311"
+amd64_versions="39 310 311"
 
 for version in $win32_versions; do
     maybe_m=
